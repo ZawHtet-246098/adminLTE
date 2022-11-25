@@ -59,7 +59,11 @@ const Sidebar = () => {
               {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
               <li className="nav-item menu-open">
-                <a href="#" className="nav-link active">
+                <a
+                  href="#"
+                  className="nav-link active"
+                  style={{ textAlign: "start" }}
+                >
                   <i className="nav-icon fas fa-tachometer-alt" />
                   <p>
                     Dashboard
@@ -68,19 +72,31 @@ const Sidebar = () => {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="./index.html" className="nav-link active">
+                    <a
+                      href="/"
+                      className="nav-link active"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Dashboard v1</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="./index2.html" className="nav-link">
+                    <a
+                      href="./v2Dashboard"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Dashboard v2</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="./index3.html" className="nav-link">
+                    <a
+                      href="./v3Dashboard"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Dashboard v3</p>
                     </a>
@@ -88,7 +104,11 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="pages/widgets.html" className="nav-link">
+                <a
+                  href="pages/widgets.html"
+                  className="nav-link"
+                  style={{ textAlign: "start" }}
+                >
                   <i className="nav-icon fas fa-th" />
                   <p>
                     Widgets
@@ -97,7 +117,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#" className="nav-link" style={{ textAlign: "start" }}>
                   <i className="nav-icon fas fa-copy" />
                   <p>
                     Layout Options
@@ -107,7 +127,11 @@ const Sidebar = () => {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/layout/top-nav.html" className="nav-link">
+                    <a
+                      href="pages/layout/top-nav.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Top Navigation</p>
                     </a>
@@ -116,13 +140,18 @@ const Sidebar = () => {
                     <a
                       href="pages/layout/top-nav-sidebar.html"
                       className="nav-link"
+                      style={{ textAlign: "start" }}
                     >
                       <i className="far fa-circle nav-icon" />
                       <p>Top Navigation + Sidebar</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/layout/boxed.html" className="nav-link">
+                    <a
+                      href="pages/layout/boxed.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Boxed</p>
                     </a>
@@ -131,6 +160,7 @@ const Sidebar = () => {
                     <a
                       href="pages/layout/fixed-sidebar.html"
                       className="nav-link"
+                      style={{ textAlign: "start" }}
                     >
                       <i className="far fa-circle nav-icon" />
                       <p>Fixed Sidebar</p>
@@ -140,6 +170,7 @@ const Sidebar = () => {
                     <a
                       href="pages/layout/fixed-sidebar-custom.html"
                       className="nav-link"
+                      style={{ textAlign: "start" }}
                     >
                       <i className="far fa-circle nav-icon" />
                       <p>
@@ -151,6 +182,7 @@ const Sidebar = () => {
                     <a
                       href="pages/layout/fixed-topnav.html"
                       className="nav-link"
+                      style={{ textAlign: "start" }}
                     >
                       <i className="far fa-circle nav-icon" />
                       <p>Fixed Navbar</p>
@@ -160,6 +192,7 @@ const Sidebar = () => {
                     <a
                       href="pages/layout/fixed-footer.html"
                       className="nav-link"
+                      style={{ textAlign: "start" }}
                     >
                       <i className="far fa-circle nav-icon" />
                       <p>Fixed Footer</p>
@@ -169,6 +202,7 @@ const Sidebar = () => {
                     <a
                       href="pages/layout/collapsed-sidebar.html"
                       className="nav-link"
+                      style={{ textAlign: "start" }}
                     >
                       <i className="far fa-circle nav-icon" />
                       <p>Collapsed Sidebar</p>
@@ -177,7 +211,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#" className="nav-link" style={{ textAlign: "start" }}>
                   <i className="nav-icon fas fa-chart-pie" />
                   <p>
                     Charts
@@ -186,25 +220,41 @@ const Sidebar = () => {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/charts/chartjs.html" className="nav-link">
+                    <a
+                      href="pages/charts/chartjs.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>ChartJS</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/charts/flot.html" className="nav-link">
+                    <a
+                      href="pages/charts/flot.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Flot</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/charts/inline.html" className="nav-link">
+                    <a
+                      href="pages/charts/inline.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Inline</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/charts/uplot.html" className="nav-link">
+                    <a
+                      href="pages/charts/uplot.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>uPlot</p>
                     </a>
@@ -212,7 +262,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#" className="nav-link" style={{ textAlign: "start" }}>
                   <i className="nav-icon fas fa-tree" />
                   <p>
                     UI Elements
@@ -221,49 +271,81 @@ const Sidebar = () => {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/UI/general.html" className="nav-link">
+                    <a
+                      href="pages/UI/general.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>General</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/icons.html" className="nav-link">
+                    <a
+                      href="pages/UI/icons.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Icons</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/buttons.html" className="nav-link">
+                    <a
+                      href="pages/UI/buttons.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Buttons</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/sliders.html" className="nav-link">
+                    <a
+                      href="pages/UI/sliders.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Sliders</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/modals.html" className="nav-link">
+                    <a
+                      href="pages/UI/modals.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Modals &amp; Alerts</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/navbar.html" className="nav-link">
+                    <a
+                      href="pages/UI/navbar.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Navbar &amp; Tabs</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/timeline.html" className="nav-link">
+                    <a
+                      href="pages/UI/timeline.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Timeline</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/UI/ribbons.html" className="nav-link">
+                    <a
+                      href="pages/UI/ribbons.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Ribbons</p>
                     </a>
@@ -271,7 +353,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#" className="nav-link" style={{ textAlign: "start" }}>
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     Forms
@@ -280,25 +362,41 @@ const Sidebar = () => {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/forms/general.html" className="nav-link">
+                    <a
+                      href="pages/forms/general.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>General Elements</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/forms/advanced.html" className="nav-link">
+                    <a
+                      href="pages/forms/advanced.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Advanced Elements</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/forms/editors.html" className="nav-link">
+                    <a
+                      href="pages/forms/editors.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Editors</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/forms/validation.html" className="nav-link">
+                    <a
+                      href="pages/forms/validation.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Validation</p>
                     </a>
@@ -306,7 +404,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#" className="nav-link" style={{ textAlign: "start" }}>
                   <i className="nav-icon fas fa-table" />
                   <p>
                     Tables
@@ -315,19 +413,31 @@ const Sidebar = () => {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/tables/simple.html" className="nav-link">
+                    <a
+                      href="pages/tables/simple.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>Simple Tables</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/tables/data.html" className="nav-link">
+                    <a
+                      href="pages/tables/data.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>DataTables</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/tables/jsgrid.html" className="nav-link">
+                    <a
+                      href="pages/tables/jsgrid.html"
+                      className="nav-link"
+                      style={{ textAlign: "start" }}
+                    >
                       <i className="far fa-circle nav-icon" />
                       <p>jsGrid</p>
                     </a>
@@ -336,7 +446,11 @@ const Sidebar = () => {
               </li>
               <li className="nav-header">EXAMPLES</li>
               <li className="nav-item">
-                <a href="pages/calendar.html" className="nav-link">
+                <a
+                  href="pages/calendar.html"
+                  className="nav-link"
+                  style={{ textAlign: "start" }}
+                >
                   <i className="nav-icon far fa-calendar-alt" />
                   <p>
                     Calendar
@@ -345,13 +459,21 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="pages/gallery.html" className="nav-link">
+                <a
+                  href="pages/gallery.html"
+                  className="nav-link"
+                  style={{ textAlign: "start" }}
+                >
                   <i className="nav-icon far fa-image" />
                   <p>Gallery</p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="pages/kanban.html" className="nav-link">
+                <a
+                  href="pages/kanban.html"
+                  className="nav-link"
+                  style={{ textAlign: "start" }}
+                >
                   <i className="nav-icon fas fa-columns" />
                   <p>Kanban Board</p>
                 </a>

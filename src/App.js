@@ -1,17 +1,19 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./components/Home";
-import Sidebar from "./components/Sidebar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import DashboardVone from "./Pages/DashboardVone";
+import DashboardVthree from "./Pages/DashboardVthree";
+import DashboardVTwo from "./Pages/DashboardVTwo";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Sidebar />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DashboardVone />} />
+        <Route path="/v3Dashboard" element={<DashboardVthree />} />
+        <Route path="/v2Dashboard" element={<DashboardVTwo />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
